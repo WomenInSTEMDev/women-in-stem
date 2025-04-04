@@ -1,0 +1,83 @@
+/* Header Styling */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003366;
+    color: white;
+    padding: 30px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.h1 {
+    font-weight: bolder;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+h2{
+    color: black;
+}
+/* Grid Styling */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 40px;
+    justify-content: center;
+    background-color: #f9f9f9;
+}
+
+/* Card Styling */
+.a1 {
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px;
+    width: 340px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.a1:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Heading */
+.a11 p {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #003366;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Image Styling */
+.a1 img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Paragraph Text */
+.a1 p {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Read More Link */
+.a1 a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.a1 a:hover {
+    text-decoration: underline;
+}
